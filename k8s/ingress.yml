@@ -2,13 +2,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: pgmicroservice-ingress
-  namespace: beram92          # change if your namespace is different
+  namespace: anugrh          # change if your namespace is different
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
   ingressClassName: nginx
   rules:
-    - host: beram92.57.158.184.247.nip.io
+    - host: anugrh.57.158.184.247.nip.io
       http:
         paths:
           - path: /
